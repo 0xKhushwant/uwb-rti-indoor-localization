@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RTI Dashboard</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <h1>RTI Dashboard</h1>
+      <div id="recordingBadge" class="badge stopped">Recording Off</div>
+    </header>
+
+    <section class="band">
+      <h2>Board Status</h2>
+      <div id="boards" class="board-grid"></div>
+    </section>
+
+    <section class="band">
+      <h2>Links</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Link</th>
+              <th>Range</th>
+              <th>RX</th>
+              <th>FP</th>
+              <th>Age</th>
+            </tr>
+          </thead>
+          <tbody id="links"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <footer class="controls">
+      <button id="startBtn" type="button">Start Recording</button>
+      <button id="stopBtn" type="button">Stop Recording</button>
+      <a class="button secondary" href="/api/download">Download CSV</a>
+    </footer>
+  </main>
+  <script src="/static/dashboard.js"></script>
+</body>
+</html>
+

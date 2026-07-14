@@ -1,0 +1,171 @@
+:root {
+  color-scheme: light;
+  --ink: #172026;
+  --muted: #63707a;
+  --line: #d8dee4;
+  --surface: #ffffff;
+  --page: #eef2f5;
+  --online: #168a52;
+  --offline: #c63d3d;
+  --accent: #245b78;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--page);
+  color: var(--ink);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.shell {
+  width: min(1120px, calc(100% - 28px));
+  margin: 0 auto;
+  padding: 22px 0;
+}
+
+.topbar,
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+h1,
+h2 {
+  margin: 0;
+  letter-spacing: 0;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.band {
+  margin-top: 18px;
+  padding: 16px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.badge {
+  border-radius: 999px;
+  padding: 8px 12px;
+  font-weight: 700;
+  color: white;
+  background: var(--online);
+}
+
+.badge.stopped {
+  background: var(--offline);
+}
+
+.board-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(130px, 1fr));
+  gap: 12px;
+}
+
+.board {
+  border-left: 5px solid var(--offline);
+  background: #f9fbfc;
+  padding: 12px;
+  border-radius: 8px;
+  min-height: 108px;
+}
+
+.board.online {
+  border-left-color: var(--online);
+}
+
+.node {
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.status {
+  font-weight: 700;
+  margin-top: 4px;
+}
+
+.meta {
+  color: var(--muted);
+  font-size: 13px;
+  margin-top: 5px;
+  overflow-wrap: anywhere;
+}
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 620px;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid var(--line);
+}
+
+th {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.controls {
+  margin-top: 18px;
+  justify-content: flex-start;
+}
+
+button,
+.button {
+  border: 0;
+  border-radius: 8px;
+  background: var(--accent);
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+  min-height: 42px;
+  padding: 0 16px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+.secondary {
+  background: #3f4b53;
+}
+
+@media (max-width: 720px) {
+  .topbar,
+  .controls {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .board-grid {
+    grid-template-columns: repeat(2, minmax(120px, 1fr));
+  }
+
+  button,
+  .button {
+    justify-content: center;
+    width: 100%;
+  }
+}
+
