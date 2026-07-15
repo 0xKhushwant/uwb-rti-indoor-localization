@@ -1,22 +1,15 @@
-# Local credentials
-UWB-RTI/firmware/RTINode/secrets.h
-
-# Python environments and caches
-.venv/
-UWB-RTI/server/.venv/
+# Python
 __pycache__/
-*.py[cod]
+*.pyc
 
-# Generated recordings and analysis outputs
-UWB-RTI/server/data/*.csv
-*.png
-
-# Archives and local packaging
-*.rar
-*.zip
-
-# OS/editor files
-.DS_Store
-Thumbs.db
+# VS Code
 .vscode/
+
+# JetBrains IDEs
 .idea/
+
+# Windows
+Thumbs.db
+
+# macOS
+.DS_Store

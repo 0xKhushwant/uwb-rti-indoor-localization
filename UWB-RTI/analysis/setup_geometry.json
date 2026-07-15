@@ -1,0 +1,41 @@
+{
+  "units": "inches",
+  "notes": [
+    "Derived from the handwritten setup photo on 2026-07-15.",
+    "All boards are mounted approximately 4 inches away from the wall using thermacol.",
+    "The sketch measurements are slightly inconsistent, so coordinates preserve the measured board-to-board offsets where possible."
+  ],
+  "room": {
+    "width": 121.0,
+    "height": 110.0
+  },
+  "nodes": {
+    "A": {
+      "x": 12.0,
+      "y": 106.0
+    },
+    "B": {
+      "x": 78.0,
+      "y": 104.0
+    },
+    "C": {
+      "x": 12.0,
+      "y": 4.0
+    },
+    "D": {
+      "x": 76.0,
+      "y": 4.0
+    }
+  },
+  "source_measurements": {
+    "room_width": 121.0,
+    "room_height_left": 105.0,
+    "room_height_right": 109.0,
+    "A_to_B": 66.0,
+    "C_to_D": 64.0,
+    "A_to_C": 102.0,
+    "B_to_D": 100.0,
+    "B_to_right_wall": 43.0,
+    "board_wall_offset": 4.0
+  }
+}

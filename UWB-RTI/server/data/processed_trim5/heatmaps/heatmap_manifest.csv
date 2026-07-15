@@ -1,0 +1,6 @@
+trial,heatmap_file,peak_x_m,peak_y_m,peak_score,grid_step_m,ellipse_width_m
+standing_20cm_in_front_of boardD,standing_20cm_in_front_of_boardd.heatmap.csv,1.2000000000000002,2.25,2.882378787878793,0.05,0.45
+standing_20cm_in_front_of_board_B,standing_20cm_in_front_of_board_b.heatmap.csv,0.65,0.15000000000000002,0.42486631016043935,0.05,0.45
+standing_in_front_of_board_C_20cm,standing_in_front_of_board_c_20cm.heatmap.csv,1.1,1.6,0.12416666666666741,0.05,0.45
+standing_in_front_of_boardA_20cm,standing_in_front_of_boarda_20cm.heatmap.csv,0.1,1.4500000000000002,0.8780481283422575,0.05,0.45
+walking_between_A_and_C_continusoly_back_and_froth,walking_between_a_and_c_continusoly_back_and_froth.heatmap.csv,1.1,2.6500000000000004,0.46972222222223087,0.05,0.45

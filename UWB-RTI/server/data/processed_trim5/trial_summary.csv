@@ -1,0 +1,6 @@
+trial,file,trimmed_samples,trimmed_duration_s,strongest_links
+standing_20cm_in_front_of boardD,standing_20cm_in_front_of boardD.csv,40,55.739,"A-B:2.88dB, C-D:2.08dB, A-C:0.70dB"
+standing_20cm_in_front_of_board_B,standing_20cm_in_front_of_board_B.csv,39,37.238,"A-C:0.42dB, A-D:0.25dB, A-B:-0.48dB"
+standing_in_front_of_board_C_20cm,standing_in_front_of_board_C_20cm.csv,108,120.252,"A-D:0.12dB, A-C:0.02dB, B-C:-0.11dB"
+standing_in_front_of_boardA_20cm,standing_in_front_of_boardA_20cm.csv,55,67.058,"A-C:0.88dB, A-D:0.47dB, B-C:0.22dB"
+walking_between_A_and_C_continusoly_back_and_froth,walking_between_A_and_C_continusoly_back_and_froth.csv,102,129.636,"A-D:0.47dB, A-C:0.28dB, B-C:0.14dB"
